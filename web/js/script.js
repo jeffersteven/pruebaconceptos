@@ -1,4 +1,4 @@
-var	module = angular.module('app', ['ngCookies']);
+var	module = angular.module('app', ['ngCookies','ngTouch']);
 var usuario;
 
 module.controller('userControl',function($scope, $window, $cookies,$cookieStore, $filter) {
