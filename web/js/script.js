@@ -68,7 +68,7 @@ module.controller('userControl',function($scope, $window, $cookies,$cookieStore,
 		$cookieStore.remove("ciudad");
 		$cookieStore.remove("user");
 		$cookieStore.remove("pass");
-		location.href="pruebaconceptos";
+		location.href="index.php";
 	};	  
 
 });
