@@ -31,7 +31,7 @@ module.controller('userControl',function($scope, $window, $cookies,$cookieStore,
 			}
 		});
 		if(band){
-			location.href="formulario.html";			
+			location.href="formulario.php";			
 		}else{
 			$scope.mensaje="Usuario o contraseña no validos.";
 		}
@@ -48,7 +48,7 @@ module.controller('userControl',function($scope, $window, $cookies,$cookieStore,
 			$cookieStore.put("departamento",$scope.user.departamento);
 			$cookieStore.put("ciudad",$scope.user.ciudad);
 			$window.alert("Usuario Registrado");
-			location.href="/pruebaconceptos/resultados.html";
+			location.href="/pruebaconceptos/resultados.php";
 		}else{
 			$window.alert("Campos invalidos.");			
 		}
