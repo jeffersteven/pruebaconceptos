@@ -48,7 +48,7 @@ module.controller('userControl',function($scope, $window, $cookies,$cookieStore,
 			$cookieStore.put("departamento",$scope.user.departamento);
 			$cookieStore.put("ciudad",$scope.user.ciudad);
 			$window.alert("Usuario Registrado");
-			location.href="/pruebaconceptos/resultados.php";
+			location.href="resultados.php";
 		}else{
 			$window.alert("Campos invalidos.");			
 		}
@@ -68,7 +68,7 @@ module.controller('userControl',function($scope, $window, $cookies,$cookieStore,
 		$cookieStore.remove("ciudad");
 		$cookieStore.remove("user");
 		$cookieStore.remove("pass");
-		location.href="/pruebaconceptos";
+		location.href="pruebaconceptos";
 	};	  
 
 });
