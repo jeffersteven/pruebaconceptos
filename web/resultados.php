@@ -34,7 +34,7 @@
 				Ciudad: {{datos.ciudad}}<br>
 			</div>
 			<br><br>
-			<a href="/pruebaconceptos/maquetacion.php">Ejemplo maquetación web</a>
+			<a href="maquetacion.php">Ejemplo maquetación web</a>
 		</div>
 	<div class="row"></div>
 	<script src="js/jquery.min.js"></script>
